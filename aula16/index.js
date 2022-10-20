@@ -1,14 +1,14 @@
 //               0       1        2          3      4
-let alunos = ['Luiz', 'Maria', 'João']; // Luiza, Eduardo 
+let alunos = ["Luiz", "Maria", "João"]; // Luiza, Eduardo
 alunos = 123;
 
 console.log(typeof alunos);
 console.log(alunos instanceof Array);
 
 // alunos.push('Luiza');
-// alunos.push('Eduardo');
+// alunos.push('Eduardo'); // coloca um elemento no final do meu array
 
-// console.log(alunos.slice(0, -2));
+// console.log(alunos.slice(0, -2)); // fatia o array
 
 // console.log(alunos[50]);
 
@@ -21,7 +21,6 @@ console.log(alunos instanceof Array);
 
 // alunos.unshift('Fábio'); // Adiciona no começo
 // alunos.unshift('Luiza');
-
 
 // alunos.push('Luiza'); // Adiciona no fim
 // alunos.push('Fábio');
